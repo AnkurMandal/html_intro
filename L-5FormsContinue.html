@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form >
+        <div>
+            <label for="user_name">Name:</label>
+            <input type="text" name="name" id="user_name" placeholder="first_name Last_name" required>
+            <hr>
+            <label for="user_no">Phone Number:</label>
+            <input type="number" name="number" id="user_no" placeholder="1234567890" required>
+            <hr>
+            <label for="email">E-Mail ID:</label>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+            <hr>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required>
+            <hr>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob">
+            <hr>
+            <label for="adhaarCard">Upload Adhaar Card:</label>
+            <input type="file" name="adhaarCard" id="adhaarCard">
+            <hr>
+            <label>Gender:</label>
+            <label for="gender_male">Male</label>
+            <input id="gender_male" type="radio" name="gender" value="Male">
+            <label id="gender_female">Female</label>
+            <input id="gender_female" type="radio" name="gender" value="Female"> 
+            <hr>
+           
+        </div>
+       <div>
+        <span>Blue</span>
+        <input type="checkbox" name="" id="" value="Blue">
+        <span>Green</span>
+        <input type="checkbox" name="" id="" value="Green">
+        <span>Red</span>
+        <input type="checkbox" name="" id="" value="Red">
+        <span>Black</span>
+        <input type="checkbox" name="" id="" value="Black">
+       </div>
+       <hr>
+       <div>
+        <label>
+            <input type="checkbox" name="agree">
+            I agree to the terms and conditions
+        </label>
+       </div>
+       <hr>
+       <div>
+        <label for="fav_car">Favourite Car:</label>
+        <select name="fav_car" id="fav_car" >
+            <option value="NA">Select an option below</option>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Range_Rover">Range Rover</option>
+        </select>
+       </div>
+       <hr>
+       <div>
+        <label for="feedback">Feedback:</label><br>
+        <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+       </div>
+       <hr>
+       <div>
+        <input type="button" value="Submit">
+        <input type="reset" value="Reset">
+        <button type="button">Click me!!</button>
+       </div>
+    </form>
+</body>
+</html>
